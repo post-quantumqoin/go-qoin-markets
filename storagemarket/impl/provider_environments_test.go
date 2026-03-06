@@ -10,7 +10,7 @@ import (
 
 	"github.com/post-quantumqoin/core-types/abi"
 
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
 )
 
 func TestGeneratePieceCommitment(t *testing.T) {

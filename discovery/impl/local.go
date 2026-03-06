@@ -14,10 +14,10 @@ import (
 	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
 	versionedds "github.com/filecoin-project/go-ds-versioning/pkg/datastore"
 
-	"github.com/filecoin-project/go-fil-markets/discovery"
-	"github.com/filecoin-project/go-fil-markets/discovery/migrations"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	"github.com/filecoin-project/go-fil-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/discovery"
+	"github.com/post-quantumqoin/go-qoin-markets/discovery/migrations"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
 )
 
 var log = logging.Logger("retrieval-discovery")

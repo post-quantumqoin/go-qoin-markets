@@ -7,7 +7,7 @@ import (
 
 	"github.com/post-quantumqoin/core-types/abi"
 
-	"github.com/filecoin-project/go-fil-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
 )
 
 //go:generate cbor-gen-for --map-encoding PieceInfo DealInfo BlockLocation PieceBlockLocation CIDInfo

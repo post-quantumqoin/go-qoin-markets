@@ -22,12 +22,12 @@ import (
 	dtnet "github.com/filecoin-project/go-data-transfer/v2/network"
 	"github.com/post-quantumqoin/core-types/big"
 
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/clientutils"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/testharness"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/testharness/dependencies"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/testnodes"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/clientutils"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/testharness"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/testharness/dependencies"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/testnodes"
 )
 
 var noOpDelay = testnodes.DelayFakeCommonNode{}

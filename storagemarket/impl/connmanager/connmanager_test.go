@@ -7,9 +7,9 @@ import (
 	"github.com/ipfs/go-cid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/connmanager"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/network"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/connmanager"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/network"
 )
 
 func TestConnManager(t *testing.T) {

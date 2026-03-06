@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filecoin-project/go-fil-markets.git"
+    "url": "git+https://github.com/post-quantumqoin/go-qoin-markets.git"
   },
   "author": "",
   "license": "(Apache-2.0 OR MIT)",
   "bugs": {
-    "url": "https://github.com/filecoin-project/go-fil-markets/issues"
+    "url": "https://github.com/post-quantumqoin/go-qoin-markets/issues"
   },
-  "homepage": "https://github.com/filecoin-project/go-fil-markets#readme",
+  "homepage": "https://github.com/post-quantumqoin/go-qoin-markets#readme",
   "dependencies": {
     "@mermaid-js/mermaid-cli": "^8.5.1-2"
   }

@@ -3,7 +3,7 @@ package discovery
 import (
 	"github.com/ipfs/go-cid"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
 )
 
 //go:generate cbor-gen-for --map-encoding RetrievalPeers

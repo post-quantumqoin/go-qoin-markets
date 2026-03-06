@@ -18,9 +18,9 @@ import (
 	"github.com/post-quantumqoin/core-types/builtin/v9/market"
 	"github.com/post-quantumqoin/core-types/crypto"
 
-	"github.com/filecoin-project/go-fil-markets/shared"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/network"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/network"
 )
 
 // CommP calculates the commP for a given dataref

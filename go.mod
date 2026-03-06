@@ -1,4 +1,4 @@
-module github.com/filecoin-project/go-fil-markets
+module github.com/post-quantumqoin/go-qoin-markets
 
 go 1.22.2
 

@@ -11,8 +11,8 @@ import (
 	"github.com/post-quantumqoin/core-types/big"
 	"github.com/filecoin-project/go-statemachine/fsm"
 
-	"github.com/filecoin-project/go-fil-markets/filestore"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/filestore"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
 )
 
 // ProviderEvents are the events that can happen in a storage provider

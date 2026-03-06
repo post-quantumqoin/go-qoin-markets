@@ -8,7 +8,7 @@ import (
 
 	"github.com/post-quantumqoin/core-types/abi"
 
-	"github.com/filecoin-project/go-fil-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
 )
 
 // ProviderSubscriber is a callback that is run when events are emitted on a StorageProvider

@@ -12,7 +12,7 @@ import (
 	"github.com/post-quantumqoin/core-types/crypto"
 	"github.com/post-quantumqoin/core-types/exitcode"
 
-	"github.com/filecoin-project/go-fil-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
 )
 
 // DealSectorPreCommittedCallback is a callback that runs when a sector is pre-committed

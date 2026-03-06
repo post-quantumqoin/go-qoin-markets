@@ -16,13 +16,13 @@ import (
 	"github.com/post-quantumqoin/core-types/abi"
 	"github.com/post-quantumqoin/core-types/big"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	testnodes2 "github.com/filecoin-project/go-fil-markets/retrievalmarket/impl/testnodes"
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
-	tut "github.com/filecoin-project/go-fil-markets/shared_testutil"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/testharness"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/testharness/dependencies"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/testnodes"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	testnodes2 "github.com/post-quantumqoin/go-qoin-markets/retrievalmarket/impl/testnodes"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	tut "github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/testharness"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/testharness/dependencies"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/testnodes"
 )
 
 var log = logger.Logger("restart_test")

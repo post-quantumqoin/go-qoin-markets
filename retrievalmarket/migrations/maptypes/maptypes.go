@@ -8,8 +8,8 @@ import (
 	datatransfer "github.com/filecoin-project/go-data-transfer/v2"
 	"github.com/post-quantumqoin/core-types/abi"
 
-	"github.com/filecoin-project/go-fil-markets/piecestore"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/piecestore"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
 )
 
 //go:generate cbor-gen-for --map-encoding ClientDealState1 ProviderDealState1

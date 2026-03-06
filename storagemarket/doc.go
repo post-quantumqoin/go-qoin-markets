@@ -79,16 +79,16 @@ so that it's available for retrieval.
 
 Other libraries in go-fil-markets:
 
-https://github.com/filecoin-project/go-fil-markets/tree/master/filestore - used to store pieces and other
+https://github.com/post-quantumqoin/go-qoin-markets/tree/master/filestore - used to store pieces and other
 temporary data before it's transferred to either a sector or the PieceStore.
 
-https://github.com/filecoin-project/go-fil-markets/tree/master/pieceio - used to convert back and forth between raw
+https://github.com/post-quantumqoin/go-qoin-markets/tree/master/pieceio - used to convert back and forth between raw
 payload data and pieces that fit in sector. Also provides utilities for generating CommP.
 
-https://github.com/filecoin-project/go-fil-markets/tree/master/piecestore - used to write information about where data
+https://github.com/post-quantumqoin/go-qoin-markets/tree/master/piecestore - used to write information about where data
 lives in sectors so that it can later be retrieved.
 
-https://github.com/filecoin-project/go-fil-markets/tree/master/shared - types and utility functions shared with
+https://github.com/post-quantumqoin/go-qoin-markets/tree/master/shared - types and utility functions shared with
 retrievalmarket package.
 
 Other Filecoin Repos:

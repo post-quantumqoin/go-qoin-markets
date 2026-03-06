@@ -13,8 +13,8 @@ import (
 	"github.com/post-quantumqoin/core-types/abi"
 	"github.com/post-quantumqoin/core-types/big"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	tut "github.com/filecoin-project/go-fil-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	tut "github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
 )
 
 func TestParamsMarshalUnmarshal(t *testing.T) {

@@ -12,8 +12,8 @@ import (
 	"github.com/libp2p/go-libp2p/core/protocol"
 	ma "github.com/multiformats/go-multiaddr"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	"github.com/filecoin-project/go-fil-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
 )
 
 var log = logging.Logger("retrieval_network")

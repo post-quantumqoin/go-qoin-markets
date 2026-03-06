@@ -16,11 +16,11 @@ import (
 	"github.com/post-quantumqoin/core-types/abi"
 	"github.com/filecoin-project/go-statestore"
 
-	"github.com/filecoin-project/go-fil-markets/piecestore"
-	piecestoreimpl "github.com/filecoin-project/go-fil-markets/piecestore/impl"
-	"github.com/filecoin-project/go-fil-markets/piecestore/migrations"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/piecestore"
+	piecestoreimpl "github.com/post-quantumqoin/go-qoin-markets/piecestore/impl"
+	"github.com/post-quantumqoin/go-qoin-markets/piecestore/migrations"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
 )
 
 func TestStorePieceInfo(t *testing.T) {

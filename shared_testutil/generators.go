@@ -19,9 +19,9 @@ import (
 	"github.com/post-quantumqoin/core-types/builtin/v9/market"
 	"github.com/post-quantumqoin/core-types/crypto"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	smnet "github.com/filecoin-project/go-fil-markets/storagemarket/network"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	smnet "github.com/post-quantumqoin/go-qoin-markets/storagemarket/network"
 )
 
 // MakeTestSignedVoucher generates a random SignedVoucher that has all non-zero fields

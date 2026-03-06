@@ -7,7 +7,7 @@ import (
 
 	datatransfer "github.com/filecoin-project/go-data-transfer/v2"
 
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
 )
 
 // PushDeals gets deal states for Push validations

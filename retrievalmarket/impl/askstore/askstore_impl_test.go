@@ -9,8 +9,8 @@ import (
 
 	"github.com/post-quantumqoin/core-types/abi"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket/impl/askstore"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket/impl/askstore"
 )
 
 func TestAskStoreImpl(t *testing.T) {

@@ -9,10 +9,10 @@ import (
 
 	"github.com/filecoin-project/go-statemachine/fsm"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	retrievalimpl "github.com/filecoin-project/go-fil-markets/retrievalmarket/impl"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	storageimpl "github.com/filecoin-project/go-fil-markets/storagemarket/impl"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	retrievalimpl "github.com/post-quantumqoin/go-qoin-markets/retrievalmarket/impl"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	storageimpl "github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl"
 )
 
 func storageDealStatusCmp(a, b fsm.StateKey) bool {

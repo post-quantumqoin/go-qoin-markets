@@ -13,10 +13,10 @@ import (
 	versioning "github.com/filecoin-project/go-ds-versioning/pkg"
 	versioned "github.com/filecoin-project/go-ds-versioning/pkg/statestore"
 
-	"github.com/filecoin-project/go-fil-markets/piecestore"
-	"github.com/filecoin-project/go-fil-markets/piecestore/migrations"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	"github.com/filecoin-project/go-fil-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/piecestore"
+	"github.com/post-quantumqoin/go-qoin-markets/piecestore/migrations"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
 )
 
 var log = logging.Logger("piecestore")

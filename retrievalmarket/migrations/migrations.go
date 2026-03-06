@@ -4,8 +4,8 @@ import (
 	datatransfer "github.com/filecoin-project/go-data-transfer/v2"
 	"github.com/filecoin-project/go-ds-versioning/pkg/versioned"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket/migrations/maptypes"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket/migrations/maptypes"
 )
 
 // NoOpClientDealState0To1 does nothing (old type removed)

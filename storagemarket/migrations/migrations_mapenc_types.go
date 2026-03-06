@@ -9,8 +9,8 @@ import (
 	"github.com/post-quantumqoin/core-types/abi"
 	marketOld "github.com/post-quantumqoin/specs-contracts/contracts/builtin/market"
 
-	"github.com/filecoin-project/go-fil-markets/filestore"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/filestore"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
 )
 
 // Some of the types in the migrations file are CBOR array-encoded, and some

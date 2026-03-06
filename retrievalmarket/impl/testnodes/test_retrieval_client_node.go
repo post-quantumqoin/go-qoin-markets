@@ -15,9 +15,9 @@ import (
 	"github.com/post-quantumqoin/core-types/big"
 	paychtypes "github.com/post-quantumqoin/core-types/builtin/v8/paych"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	"github.com/filecoin-project/go-fil-markets/shared"
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
 )
 
 // TestRetrievalClientNode is a node adapter for a retrieval client whose responses

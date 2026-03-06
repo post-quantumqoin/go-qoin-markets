@@ -11,8 +11,8 @@ import (
 
 	"github.com/filecoin-project/dagstore"
 
-	tut "github.com/filecoin-project/go-fil-markets/shared_testutil"
-	"github.com/filecoin-project/go-fil-markets/stores"
+	tut "github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/stores"
 )
 
 func TestReadOnlyStoreTracker(t *testing.T) {

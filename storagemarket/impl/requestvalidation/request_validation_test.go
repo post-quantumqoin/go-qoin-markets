@@ -21,10 +21,10 @@ import (
 	"github.com/post-quantumqoin/core-types/crypto"
 	"github.com/filecoin-project/go-statestore"
 
-	tut "github.com/filecoin-project/go-fil-markets/shared_testutil"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/requestvalidation"
-	rv "github.com/filecoin-project/go-fil-markets/storagemarket/impl/requestvalidation"
+	tut "github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/requestvalidation"
+	rv "github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/requestvalidation"
 )
 
 var blockGenerator = blocksutil.NewBlockGenerator()

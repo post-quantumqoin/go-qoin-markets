@@ -4,8 +4,8 @@ import (
 	bstore "github.com/ipfs/boxo/blockstore"
 	"github.com/ipfs/go-datastore"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
 )
 
 type TestStorageBlockstoreAccessor struct {

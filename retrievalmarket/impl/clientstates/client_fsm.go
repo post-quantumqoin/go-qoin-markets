@@ -12,7 +12,7 @@ import (
 	"github.com/post-quantumqoin/core-types/big"
 	"github.com/filecoin-project/go-statemachine/fsm"
 
-	rm "github.com/filecoin-project/go-fil-markets/retrievalmarket"
+	rm "github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
 )
 
 func recordReceived(deal *rm.ClientDealState, totalReceived uint64) error {

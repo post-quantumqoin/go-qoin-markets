@@ -20,12 +20,12 @@ import (
 	"github.com/post-quantumqoin/core-types/exitcode"
 	"github.com/filecoin-project/go-statemachine/fsm"
 
-	"github.com/filecoin-project/go-fil-markets/filestore"
-	"github.com/filecoin-project/go-fil-markets/piecestore"
-	"github.com/filecoin-project/go-fil-markets/shared"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/providerutils"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/network"
+	"github.com/post-quantumqoin/go-qoin-markets/filestore"
+	"github.com/post-quantumqoin/go-qoin-markets/piecestore"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/providerutils"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/network"
 )
 
 var log = logging.Logger("providerstates")

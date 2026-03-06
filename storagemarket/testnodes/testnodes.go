@@ -22,10 +22,10 @@ import (
 	"github.com/post-quantumqoin/core-types/crypto"
 	"github.com/post-quantumqoin/core-types/exitcode"
 
-	"github.com/filecoin-project/go-fil-markets/commp"
-	"github.com/filecoin-project/go-fil-markets/shared"
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/commp"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
 )
 
 // Below fake node implementations

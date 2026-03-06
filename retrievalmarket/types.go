@@ -20,7 +20,7 @@ import (
 	"github.com/post-quantumqoin/core-types/big"
 	paychtypes "github.com/post-quantumqoin/core-types/builtin/v8/paych"
 
-	"github.com/filecoin-project/go-fil-markets/piecestore"
+	"github.com/post-quantumqoin/go-qoin-markets/piecestore"
 )
 
 //go:generate cbor-gen-for --map-encoding Query QueryResponse DealProposal DealResponse Params QueryParams DealPayment ClientDealState ProviderDealState PaymentInfo RetrievalPeer Ask

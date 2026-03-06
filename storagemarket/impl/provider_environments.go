@@ -15,13 +15,13 @@ import (
 	"github.com/post-quantumqoin/address"
 	"github.com/post-quantumqoin/core-types/abi"
 
-	"github.com/filecoin-project/go-fil-markets/commp"
-	"github.com/filecoin-project/go-fil-markets/filestore"
-	"github.com/filecoin-project/go-fil-markets/piecestore"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/providerstates"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/network"
-	"github.com/filecoin-project/go-fil-markets/stores"
+	"github.com/post-quantumqoin/go-qoin-markets/commp"
+	"github.com/post-quantumqoin/go-qoin-markets/filestore"
+	"github.com/post-quantumqoin/go-qoin-markets/piecestore"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/providerstates"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/network"
+	"github.com/post-quantumqoin/go-qoin-markets/stores"
 )
 
 // -------

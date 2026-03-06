@@ -10,7 +10,7 @@ import (
 	"github.com/post-quantumqoin/core-types/abi"
 	paychtypes "github.com/post-quantumqoin/core-types/builtin/v8/paych"
 
-	"github.com/filecoin-project/go-fil-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
 )
 
 // RetrievalClientNode are the node dependencies for a RetrievalClient

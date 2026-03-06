@@ -31,15 +31,15 @@ import (
 	"github.com/filecoin-project/go-statemachine/fsm"
 	fsmtest "github.com/filecoin-project/go-statemachine/fsm/testutil"
 
-	"github.com/filecoin-project/go-fil-markets/filestore"
-	"github.com/filecoin-project/go-fil-markets/piecestore"
-	"github.com/filecoin-project/go-fil-markets/shared"
-	tut "github.com/filecoin-project/go-fil-markets/shared_testutil"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/blockrecorder"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/providerstates"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/network"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/testnodes"
+	"github.com/post-quantumqoin/go-qoin-markets/filestore"
+	"github.com/post-quantumqoin/go-qoin-markets/piecestore"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
+	tut "github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/blockrecorder"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/providerstates"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/network"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/testnodes"
 )
 
 func TestValidateDealProposal(t *testing.T) {

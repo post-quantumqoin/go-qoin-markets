@@ -8,7 +8,7 @@ import (
 
 	cborutil "github.com/filecoin-project/go-cbor-util"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
 )
 
 type queryStream struct {

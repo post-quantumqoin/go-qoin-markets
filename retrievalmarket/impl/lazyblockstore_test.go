@@ -10,7 +10,7 @@ import (
 
 	"github.com/filecoin-project/dagstore"
 
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
 )
 
 func TestLazyBlockstoreGet(t *testing.T) {

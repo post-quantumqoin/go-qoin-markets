@@ -12,7 +12,7 @@ import (
 
 	"github.com/post-quantumqoin/core-types/abi"
 
-	"github.com/filecoin-project/go-fil-markets/piecestore"
+	"github.com/post-quantumqoin/go-qoin-markets/piecestore"
 )
 
 // getAllPieceInfoForPayload returns all of the pieces containing the requested Payload CID.

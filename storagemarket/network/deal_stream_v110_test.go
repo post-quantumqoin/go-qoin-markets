@@ -17,7 +17,7 @@ import (
 	"github.com/post-quantumqoin/core-types/crypto"
 	marketOld "github.com/post-quantumqoin/specs-contracts/contracts/builtin/market"
 
-	"github.com/filecoin-project/go-fil-markets/storagemarket/migrations"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/migrations"
 )
 
 // TestReceivev110DealProposal verifies that the provider will reject a v110
