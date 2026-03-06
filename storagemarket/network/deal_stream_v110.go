@@ -38,9 +38,9 @@ func (d *dealStreamv110) ReadDealProposal() (Proposal, error) {
 	// a utf8 string.
 	// The signature is checked when submitting the Publish Storage Deals
 	// message, so we reject the deal proposal here to avoid that scenario.
-	if err := checkDealLabel(ds.DealProposal.Proposal.Label); err != nil {
-		return ProposalUndefined, err
-	}
+	// if err := checkDealLabel(ds.DealProposal.Proposal.Label); err != nil {
+	// 	return ProposalUndefined, err
+	// }
 
 	// Migrate the deal proposal to the new format
 	prop, err := migrations.MigrateClientDealProposal0To1(*ds.DealProposal)

@@ -3,7 +3,7 @@ package migrations
 import (
 	"context"
 	"fmt"
-	"unicode/utf8"
+	// "unicode/utf8"
 
 	"github.com/ipfs/go-cid"
 	"github.com/libp2p/go-libp2p/core/peer"
@@ -246,21 +246,21 @@ func MigrateMinerDeal1To2(oldCd *MinerDeal1) (*storagemarket.MinerDeal, error) {
 }
 
 func MigrateClientDealProposal0To1(prop marketOld.ClientDealProposal) (*storagemarket.ClientDealProposal, error) {
-	oldLabel := prop.Proposal.Label
+	// oldLabel := prop.Proposal.Label
 
-	var err error
-	var newLabel market.DealLabel
-	if utf8.ValidString(oldLabel) {
-		newLabel, err = market.NewLabelFromString(oldLabel)
-		if err != nil {
-			return nil, fmt.Errorf("migrating deal label to DealLabel (string): %w", err)
-		}
-	} else {
-		newLabel, err = market.NewLabelFromBytes([]byte(oldLabel))
-		if err != nil {
-			return nil, fmt.Errorf("migrating deal label to DealLabel (byte): %w", err)
-		}
-	}
+	// var err error
+	// var newLabel market.DealLabel
+	// if utf8.ValidString(oldLabel) {
+	// 	newLabel, err = market.NewLabelFromString(oldLabel)
+	// 	if err != nil {
+	// 		return nil, fmt.Errorf("migrating deal label to DealLabel (string): %w", err)
+	// 	}
+	// } else {
+	// 	newLabel, err = market.NewLabelFromBytes([]byte(oldLabel))
+	// 	if err != nil {
+	// 		return nil, fmt.Errorf("migrating deal label to DealLabel (byte): %w", err)
+	// 	}
+	// }
 
 	return &storagemarket.ClientDealProposal{
 		ClientSignature: prop.ClientSignature,
@@ -270,7 +270,7 @@ func MigrateClientDealProposal0To1(prop marketOld.ClientDealProposal) (*storagem
 			VerifiedDeal:         prop.Proposal.VerifiedDeal,
 			Client:               prop.Proposal.Client,
 			Provider:             prop.Proposal.Provider,
-			Label:                newLabel,
+			// Label:                newLabel,
 			StartEpoch:           prop.Proposal.StartEpoch,
 			EndEpoch:             prop.Proposal.EndEpoch,
 			StoragePricePerEpoch: prop.Proposal.StoragePricePerEpoch,
