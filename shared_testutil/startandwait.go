@@ -8,7 +8,7 @@ import (
 
 	datatransfer "github.com/filecoin-project/go-data-transfer/v2"
 
-	"github.com/filecoin-project/go-fil-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
 )
 
 // StartAndWaitable is any interface that can be started up and will be asynchronously ready later

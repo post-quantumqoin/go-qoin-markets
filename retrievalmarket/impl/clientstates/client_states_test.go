@@ -19,11 +19,11 @@ import (
 	"github.com/filecoin-project/go-statemachine/fsm"
 	fsmtest "github.com/filecoin-project/go-statemachine/fsm/testutil"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	rm "github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket/impl/clientstates"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket/impl/testnodes"
-	testnet "github.com/filecoin-project/go-fil-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	rm "github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket/impl/clientstates"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket/impl/testnodes"
+	testnet "github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
 )
 
 type consumeBlockResponse struct {

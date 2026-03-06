@@ -14,12 +14,12 @@ import (
 	"github.com/post-quantumqoin/core-types/builtin/v9/market"
 	"github.com/post-quantumqoin/core-types/crypto"
 
-	"github.com/filecoin-project/go-fil-markets/filestore"
-	"github.com/filecoin-project/go-fil-markets/shared"
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/blockrecorder"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/providerutils"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/network"
+	"github.com/post-quantumqoin/go-qoin-markets/filestore"
+	"github.com/post-quantumqoin/go-qoin-markets/shared"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/blockrecorder"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/providerutils"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/network"
 )
 
 func TestVerifyProposal(t *testing.T) {

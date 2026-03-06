@@ -7,7 +7,7 @@ import (
 	"github.com/post-quantumqoin/core-types/builtin/v9/market"
 	"github.com/post-quantumqoin/core-types/crypto"
 
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
 )
 
 //go:generate cbor-gen-for --map-encoding AskRequest AskResponse Proposal Response SignedResponse DealStatusRequest DealStatusResponse

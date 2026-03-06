@@ -8,8 +8,8 @@ import (
 	"math"
 	"sort"
 
-	piecestore "github.com/filecoin-project/go-fil-markets/piecestore"
-	retrievalmarket "github.com/filecoin-project/go-fil-markets/retrievalmarket"
+	piecestore "github.com/post-quantumqoin/go-qoin-markets/piecestore"
+	retrievalmarket "github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
 	cid "github.com/ipfs/go-cid"
 	peer "github.com/libp2p/go-libp2p/core/peer"
 	cbg "github.com/whyrusleeping/cbor-gen"

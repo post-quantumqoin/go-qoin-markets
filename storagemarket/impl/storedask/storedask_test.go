@@ -14,11 +14,11 @@ import (
 	"github.com/post-quantumqoin/address"
 	"github.com/post-quantumqoin/core-types/abi"
 
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/providerutils"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/storedask"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/migrations"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/testnodes"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/providerutils"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/storedask"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/migrations"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/testnodes"
 )
 
 func TestStoredAsk(t *testing.T) {

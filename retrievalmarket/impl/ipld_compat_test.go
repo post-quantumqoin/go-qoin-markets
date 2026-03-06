@@ -22,7 +22,7 @@ import (
 	"github.com/post-quantumqoin/core-types/builtin/v8/paych"
 	"github.com/post-quantumqoin/core-types/crypto"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
 )
 
 func TestIpldCompat_DealResponse(t *testing.T) {

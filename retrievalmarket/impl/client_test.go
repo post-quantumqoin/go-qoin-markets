@@ -25,14 +25,14 @@ import (
 	"github.com/post-quantumqoin/core-types/abi"
 	"github.com/post-quantumqoin/core-types/big"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	retrievalimpl "github.com/filecoin-project/go-fil-markets/retrievalmarket/impl"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket/impl/testnodes"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket/migrations/maptypes"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket/network"
-	rmnet "github.com/filecoin-project/go-fil-markets/retrievalmarket/network"
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
-	tut "github.com/filecoin-project/go-fil-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
+	retrievalimpl "github.com/post-quantumqoin/go-qoin-markets/retrievalmarket/impl"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket/impl/testnodes"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket/migrations/maptypes"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket/network"
+	rmnet "github.com/post-quantumqoin/go-qoin-markets/retrievalmarket/network"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	tut "github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
 )
 
 func TestClient_Construction(t *testing.T) {

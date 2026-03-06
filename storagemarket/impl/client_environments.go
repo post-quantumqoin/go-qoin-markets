@@ -12,8 +12,8 @@ import (
 
 	datatransfer "github.com/filecoin-project/go-data-transfer/v2"
 
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/network"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/network"
 )
 
 // -------

@@ -23,15 +23,15 @@ import (
 	"github.com/post-quantumqoin/core-types/abi"
 	"github.com/post-quantumqoin/core-types/builtin/v9/market"
 
-	discoveryimpl "github.com/filecoin-project/go-fil-markets/discovery/impl"
-	"github.com/filecoin-project/go-fil-markets/filestore"
-	"github.com/filecoin-project/go-fil-markets/piecestore"
-	piecestoreimpl "github.com/filecoin-project/go-fil-markets/piecestore/impl"
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/storedask"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/testnodes"
-	"github.com/filecoin-project/go-fil-markets/stores"
+	discoveryimpl "github.com/post-quantumqoin/go-qoin-markets/discovery/impl"
+	"github.com/post-quantumqoin/go-qoin-markets/filestore"
+	"github.com/post-quantumqoin/go-qoin-markets/piecestore"
+	piecestoreimpl "github.com/post-quantumqoin/go-qoin-markets/piecestore/impl"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/storedask"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/testnodes"
+	"github.com/post-quantumqoin/go-qoin-markets/stores"
 )
 
 // StorageDependencies are the dependencies required to initialize a storage client/provider

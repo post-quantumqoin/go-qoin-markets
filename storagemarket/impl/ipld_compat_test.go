@@ -14,7 +14,7 @@ import (
 	"github.com/ipld/go-ipld-prime/schema"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/filecoin-project/go-fil-markets/storagemarket/impl/requestvalidation"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl/requestvalidation"
 )
 
 func TestIpldCompat_StorageDataTransferVoucher(t *testing.T) {

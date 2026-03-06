@@ -25,13 +25,13 @@ import (
 	"github.com/post-quantumqoin/core-types/big"
 	"github.com/post-quantumqoin/core-types/builtin"
 
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
-	"github.com/filecoin-project/go-fil-markets/storagemarket"
-	storageimpl "github.com/filecoin-project/go-fil-markets/storagemarket/impl"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/network"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/testharness/dependencies"
-	"github.com/filecoin-project/go-fil-markets/storagemarket/testnodes"
-	"github.com/filecoin-project/go-fil-markets/stores"
+	"github.com/post-quantumqoin/go-qoin-markets/shared_testutil"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket"
+	storageimpl "github.com/post-quantumqoin/go-qoin-markets/storagemarket/impl"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/network"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/testharness/dependencies"
+	"github.com/post-quantumqoin/go-qoin-markets/storagemarket/testnodes"
+	"github.com/post-quantumqoin/go-qoin-markets/stores"
 )
 
 type StorageHarness struct {

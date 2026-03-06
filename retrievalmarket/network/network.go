@@ -4,7 +4,7 @@ import (
 	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
 
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
+	"github.com/post-quantumqoin/go-qoin-markets/retrievalmarket"
 )
 
 // These are the required interfaces that must be implemented to send and receive data

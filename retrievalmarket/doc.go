@@ -78,8 +78,8 @@ the `PieceStore` to locate sectors that contain data related to the deal.
 
 Other libraries in go-fil-markets:
 
-https://github.com/filecoin-project/go-fil-markets/tree/master/piecestore - used to locate data for deals in sectors
-https://github.com/filecoin-project/go-fil-markets/tree/master/shared - types and utility functions shared with
+https://github.com/post-quantumqoin/go-qoin-markets/tree/master/piecestore - used to locate data for deals in sectors
+https://github.com/post-quantumqoin/go-qoin-markets/tree/master/shared - types and utility functions shared with
 storagemarket package
 
 Other Filecoin Repos:
